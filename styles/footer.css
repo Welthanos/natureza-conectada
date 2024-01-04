@@ -1,0 +1,34 @@
+footer{
+  background-color: var(--text-color);
+}
+footer > div{
+  padding: 1rem 0;
+}
+
+footer h2{
+  color: var(--primary-color);
+}
+footer h4, li, ul{
+  color: var(--bg-color);
+}
+footer p{
+  color: var(--bg-color);
+}
+footer a {
+  text-decoration: none;
+  color: var(--bg-color);
+  transition: color .3s;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+}
+
+@media (max-width: 575px){
+  footer .container{
+padding-left: 2rem;
+  }
+  footer .row{
+    gap: 4rem;
+  }
+}
