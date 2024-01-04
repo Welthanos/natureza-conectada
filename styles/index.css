@@ -1,0 +1,135 @@
+.hero-section{
+  min-height: 100vh;
+  background-image: url("../assets/bg-hero-section.webp");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.hero-section > div{
+   position: relative;
+   flex-direction: column;
+   align-items: center;
+}
+
+.hero-section p{
+  color: var(--bg-color);
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.hero-section > div{
+  margin: 0 auto;
+}
+
+
+.arrow-scroll{
+  /* margin-left: calc(50% - 16px); */
+  margin-top: 3rem;
+  animation: moveUpDown 3s infinite; 
+  position: absolute;
+}
+
+.about-section{
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.about-section > div{
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  padding: 2rem 0;
+}
+.container-text-about {
+ width: 50%;
+}
+.about-section h2{
+  color: var(--primary-color);
+}
+
+.earth{
+  background-color: var(--text-color);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.earth > div{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.item-1-earth img{
+  border-bottom: solid 2px var(--primary-color);
+  padding-bottom: 4rem;
+}
+.item-1-earth p {
+max-width: 70%;
+margin-top: 2rem;
+}
+.container-txt-earth > div{
+  flex-direction: column;
+}
+.earth p{
+  color: var(--bg-color);
+}
+.earth h2{
+  color: var(--primary-color);
+}
+.percent-earth{
+  font-size: 4rem;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(10rem);
+  }
+  50% {
+    transform: translateY(12rem);
+  }
+  100% {
+    transform: translateY(10rem);
+  }
+}
+
+
+
+@media (max-width:1200px){
+.hero-section > div, .about-section > div,   .earth > div{
+  margin: 0 20px;
+}
+
+}
+
+@media (max-width: 775px){
+  .container-text-about {
+    width: 100%;
+   }
+   .about-section div:last-child{
+    justify-content: center;
+   }
+   .about-section div:last-child img{
+    width: 16rem;
+   }
+   .about-section{
+    min-height: 80vh;
+  }
+  .earth > div{
+    flex-wrap: wrap;
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width:610px){
+  .hero-section img:first-child{
+    width: 14rem;
+  }
+  .hero-section p{
+    font-size: 1rem;
+  }
+  .item-1-earth img{
+    width: 100%;
+  }
+}
