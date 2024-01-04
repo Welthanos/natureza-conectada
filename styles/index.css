@@ -95,20 +95,24 @@ section.technologies {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: 6rem auto 0 auto;
+    gap: 3rem;
     padding-block: 2rem;
 }
 
 section.working {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
+    gap: 8rem;
     padding-block: 3rem;
 }
-
 
 .working ul {
     margin-left: 1rem;
@@ -122,6 +126,7 @@ section.working {
 
 .technologies p,
 .working p {
+    max-width: 500px;
     font-weight: 500;
     color: var(--text-color);
     margin-bottom: 1rem;
@@ -163,10 +168,10 @@ section.contact-form {
 
     .hero-section>div,
     .about-section>div,
-    .earth>div {
+    .earth>div,
+    .contact-form>form {
         margin: 0 20px;
     }
-
 }
 
 @media (max-width: 775px) {
@@ -203,5 +208,24 @@ section.contact-form {
 
     .item-1-earth img {
         width: 100%;
+    }
+
+    section.technologies {
+        gap: 0;
+        margin: 0 2rem;
+    }
+
+    section.working {
+        gap: 3rem;
+        margin: 0 2rem;
+    }
+
+    .technologies img {
+        width: 20rem;
+        margin-left: 2rem;
+    }
+
+    .working img {
+        width: 15rem;
     }
 }
