@@ -60,6 +60,7 @@
   margin: 0 auto;
   max-width: 1200px;
 }
+
 .item-1-earth img{
   border-bottom: solid 2px var(--primary-color);
   padding-bottom: 4rem;
@@ -92,6 +93,7 @@ margin-top: 2rem;
     transform: translateY(10rem);
   }
 }
+
 
 
 @media (max-width:1200px){

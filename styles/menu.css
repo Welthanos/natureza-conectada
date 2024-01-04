@@ -13,6 +13,9 @@
 .btn{
   color: var(--text-color) !important;
 }
+.bg-menu a:hover{
+  color: var(--primary-color) !important;
+}
 .container-fluid{
   max-width: 1200px;
 }
