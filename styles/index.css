@@ -96,10 +96,10 @@ section.technologies {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    height: 62vh;
     max-width: 1200px;
-    margin: 6rem auto 0 auto;
+    margin: 0 auto;
     gap: 3rem;
-    padding-block: 2rem;
 }
 
 section.working {
@@ -108,10 +108,10 @@ section.working {
     justify-content: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    height: 62vh;
     max-width: 1200px;
     margin: 0 auto;
     gap: 8rem;
-    padding-block: 3rem;
 }
 
 .working ul {
