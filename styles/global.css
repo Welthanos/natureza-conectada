@@ -1,3 +1,6 @@
+@import url("./menu.css");
+
+
 :root {
     --font-family-heading: 'Ubuntu', sans-serif;
     --font-family-text: 'Roboto Flex', sans-serif;
@@ -17,7 +20,7 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color) !important;
 }
 
 h1, h2, h3, h4 {
@@ -26,4 +29,12 @@ h1, h2, h3, h4 {
 
 p {
     font-family: var(--font-family-text);
+}
+
+.btn-cta{
+color: var(--text-color);
+background-color: var(--primary-color);
+padding: .5rem 1.3rem;
+text-align: center;
+font-weight: 600;
 }
