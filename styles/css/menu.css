@@ -1,0 +1,41 @@
+header .navbar-toggler {
+  display: none;
+  padding: 4px 8px;
+}
+header .bg-menu {
+  background-color: var(--text-color);
+  border-bottom: 2px solid var(--bg-color);
+}
+header .bg-menu a {
+  color: var(--bg-color) !important;
+  font-weight: 600;
+}
+header .bg-menu a:hover {
+  color: var(--primary-color) !important;
+}
+header .bg-menu img {
+  width: 3rem;
+}
+header .bg-menu .container-fluid {
+  max-width: 1200px;
+}
+header .bg-menu .container-fluid .btn a {
+  color: var(--text-color) !important;
+}
+header .bg-menu .navbar-toggler-icon {
+  color: black !important;
+}
+header .bg-menu .bg-off-canvas {
+  background-color: var(--text-color) !important;
+}
+
+@media (max-width: 530px) {
+  header .link-header {
+    display: none;
+  }
+  header .navbar-toggler {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=menu.css.map */

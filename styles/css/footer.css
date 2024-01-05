@@ -1,34 +1,34 @@
-footer{
+footer {
   background-color: var(--text-color);
 }
-footer > div{
+footer > div {
   padding: 1rem 0;
 }
-
-footer h2{
+footer h2 {
   color: var(--primary-color);
 }
-footer h4, li, ul{
-  color: var(--bg-color);
-}
-footer p{
+footer h4,
+footer p,
+footer li,
+footer ul {
   color: var(--bg-color);
 }
 footer a {
   text-decoration: none;
   color: var(--bg-color);
-  transition: color .3s;
+  transition: color 0.3s;
 }
-
 footer a:hover {
   color: var(--primary-color);
 }
 
-@media (max-width: 575px){
-  footer .container{
-padding-left: 2rem;
+@media (max-width: 575px) {
+  footer .container {
+    padding-left: 2rem;
   }
-  footer .row{
+  footer .row {
     gap: 4rem;
   }
 }
+
+/*# sourceMappingURL=footer.css.map */
