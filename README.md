@@ -26,8 +26,9 @@ Plataformas tecnológicas conectam voluntários e entidades, facilitando projeto
   <img align="center"  height="30"  src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg">
 </div>
 
-## Repositório Figma
-<a href="https://www.figma.com/file/KYY8f8bG27kEzRpsPOP8xQ/Untitled?type=design&node-id=0%3A1&mode=design&t=v5WlXGgDVRMMN920-1">Link do repositório</a>
+## Links 
+- <a href="https://natureza-conectada.vercel.app/">Deploy</a>
+- <a href="https://www.figma.com/file/KYY8f8bG27kEzRpsPOP8xQ/Untitled?type=design&node-id=0%3A1&mode=design&t=v5WlXGgDVRMMN920-1">Figma</a>
 
 ## Autores
 - Welton Santos
