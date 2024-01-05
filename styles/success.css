@@ -9,6 +9,7 @@ main>section {
 .card-usuario {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 4rem 2rem;
     border-radius: .3rem;
     border-top: 2px solid #eeeeee;
@@ -31,7 +32,6 @@ main>section {
         font-size: 1.2rem;
         line-height: .8rem;
     }
-
 }
 
 .cards-benefits {
@@ -55,6 +55,7 @@ main>section {
     }
 
     .card {
+        max-height: 17rem;
         padding: 1rem;
         padding-left: 3rem;
         border-radius: .3rem;
@@ -62,6 +63,10 @@ main>section {
         border-left: 2px solid #eeeeee;
         background: #f9fcf9 !important;
         box-shadow: 3px 8px 10.1px 0px rgba(0, 0, 0, 0.079);
+
+        &:last-child {
+            margin-bottom: 3rem;
+        }
     }
 }
 
@@ -69,7 +74,6 @@ main>section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
     min-height: fit-content;
     margin-bottom: 5rem;
 
@@ -89,5 +93,36 @@ main>section {
 footer {
     .links {
         visibility: hidden;
+    }
+}
+
+@media (max-width: 775px) {
+    .card-usuario {
+        img {
+            width: 18rem;
+        }
+    }
+
+    .cards-benefits {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            margin-inline: 2rem;
+        }
+    }
+
+    .ask-for-seed {
+        flex-wrap: wrap;
+
+        img {
+            margin: 3rem 0 0 3rem;
+        }
+    }
+
+    footer {
+        .links {
+            display: none;
+        }
     }
 }
