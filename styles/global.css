@@ -24,7 +24,10 @@ body {
     background-color: var(--bg-color) !important;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--font-family-heading);
 }
 
@@ -32,16 +35,17 @@ p {
     font-family: var(--font-family-text);
 }
 
-.btn-cta{
-color: var(--text-color);
-background-color: var(--primary-color);
-padding: .5rem 1.3rem;
-text-align: center;
-font-weight: 600;
-transition: background-color .3s;
-border-radius: .3rem;
+.btn-cta {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    padding: .5rem 1.3rem;
+    text-align: center;
+    font-weight: 600;
+    transition: background-color .3s;
+    border-radius: .3rem;
 }
 
-.btn-cta:hover{
+.btn-cta:hover {
     background-color: #234b0a;
+    color: var(--secondary-color)
 }
