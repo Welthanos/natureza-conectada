@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../styles/success.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
     <title>Página do usuário</title>
 </head>
 
@@ -23,29 +24,20 @@
         <header>
             <nav id="navBar" class="navbar fixed-top bg-menu" data-bs-theme="dark">
                 <div class="container-fluid">
-                    <a href="../index.html" class="navbar-brand custom-brand-nav"><img src="../assets/logo.svg"
-                            alt="Logo Natureza conectada. Ilustração de uma folha verde"></a>
+                    <a href="../index.html" class="navbar-brand custom-brand-nav"><img src="../assets/logo.svg" alt="Logo Natureza conectada. Ilustração de uma folha verde"></a>
                     <div>
-                        <a href="../index.html#about-section" class="btn link-header"
-                            aria-label="Link sobre a plataforma">Sobre</a>
-                        <a href="../index.html#techs-section" class="btn link-header"
-                            aria-label="Tecnologias usadas na plataforma">Tecnologias</a>
-                        <a href="../index.html#working-section" class="btn link-header"
-                            aria-label="Funcionamento da plataforma">Funcionamento</a>
-                        <a href="../index.html" class="btn btn-outline-light link-header"
-                            aria-label="Faça logout">Logout</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                            aria-label="Toggle navigation">
+                        <a href="../index.html#about-section" class="btn link-header" aria-label="Link sobre a plataforma">Sobre</a>
+                        <a href="../index.html#techs-section" class="btn link-header" aria-label="Tecnologias usadas na plataforma">Tecnologias</a>
+                        <a href="../index.html#working-section" class="btn link-header" aria-label="Funcionamento da plataforma">Funcionamento</a>
+                        <a href="../index.html" class="btn btn-outline-light link-header" aria-label="Faça logout">Logout</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </div>
                 </div>
-                <div class="offcanvas offcanvas-end bg-off-canvas" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas offcanvas-end bg-off-canvas" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -66,7 +58,7 @@
         <section>
             <div class="card-usuario">
                 <div>
-                    <h1>Olá Carlos! ☺</h1>
+                    <h1>Olá Carlos! <span class="ec ec-grinning"></span></h1>
                     <p>Carlos da Silva Matos</p>
                     <p>Rua Campos Sales, nº 184</p>
                     <p>Bairro Vila Mariana - SP</p>
@@ -82,48 +74,41 @@
         <section class="cards-benefits">
             <h2>Conheça os benefícios que você irá colher</h2>
             <div class="d-flex flex-wrap gap-4 justify-content-center">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Melhoria da Qualidade do Ar</h4>
+                        <h4 class="card-title air-quality">Melhoria da Qualidade do Ar</h4>
                         <p class="card-text">O aumento da cobertura vegetal contribui para a filtragem de poluentes do
                             ar,
                             melhorando a qualidade do ar nas áreas urbanas.</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Melhoria da Qualidade do Ar</h4>
-                        <p class="card-text">O aumento da cobertura vegetal contribui para a filtragem de poluentes do
-                            ar,
-                            melhorando a qualidade do ar nas áreas urbanas.</p>
+                        <h4 class="card-title 
+                        biodiversity">Incentivo à Biodiversidade</h4>
+                        <p class="card-text">O plantio de espécies nativas contribui para a preservação da biodiversidade, ajudando na conservação de flora e fauna locais.</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Melhoria da Qualidade do Ar</h4>
-                        <p class="card-text">O aumento da cobertura vegetal contribui para a filtragem de poluentes do
-                            ar,
-                            melhorando a qualidade do ar nas áreas urbanas.</p>
+                        <h4 class="card-title climatic-changes">Redução das Mudanças Climáticas</h4>
+                        <p class="card-text">O reflorestamento urbano ajuda na captura de carbono, reduzindo a pegada de carbono e contribuindo para a mitigação das mudanças climáticas.</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Melhoria da Qualidade do Ar</h4>
-                        <p class="card-text">O aumento da cobertura vegetal contribui para a filtragem de poluentes do
-                            ar,
-                            melhorando a qualidade do ar nas áreas urbanas.</p>
+                        <h4 class="card-title awareness">Estímulo à Conscientização Ambiental</h4>
+                        <p class="card-text">O projeto pode aumentar a conscientização sobre questões ambientais, incentivando práticas sustentáveis e responsáveis na comunidade.</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Melhoria da Qualidade do Ar</h4>
-                        <p class="card-text">O aumento da cobertura vegetal contribui para a filtragem de poluentes do
-                            ar,
-                            melhorando a qualidade do ar nas áreas urbanas.</p>
+                        <h4 class="card-title comunity">Bem-Estar da Comunidade</h4>
+                        <p class="card-text">Áreas verdes têm impactos positivos na saúde mental e física, promovendo o bem-estar e reduzindo o estresse.</p>
                     </div>
                 </div>
             </div>
@@ -132,8 +117,8 @@
         <section class="ask-for-seed">
             <div>
                 <h2>Pedir sua semente</h2>
-                <div class="btn-cta button-ask" role="button" aria-label="Botão de chamada para pedir uma semente">Pedir
-                </div>
+                <button class="btn-cta button-ask" role="button" disabled aria-label="Botão de chamada para pedir uma semente">Pedir
+                </button>
             </div>
             <img src="../assets/plant.png" alt="Figura de uma planta de decoração em um jarro">
         </section>
@@ -145,17 +130,14 @@
                         <div class="col-lg-5 col-xs-12 about-company">
                             <h2>Natureza Conectada</h2>
                             <p class="pr-5 ">Conectando pessoas à natureza, uma semente por vez. </p>
-                            <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i
-                                        class="fa fa-linkedin-square"></i></a></p>
+                            <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
                         </div>
                         <div class="col-lg-3 col-xs-12 links">
                             <h4 class="mt-lg-0 mt-sm-3">Links</h4>
                             <ul class="m-0 p-0">
                                 <li> <a href="#about-section" aria-label="Link sobre a plataforma">Sobre</a></li>
-                                <li> <a href="#techs-section"
-                                        aria-label="Link sobre as tecnologias da plataforma">Tecnologias</a></li>
-                                <li> <a href="#working-section"
-                                        aria-label="As funcionalidades da plataforma">Funcionamento</a></li>
+                                <li> <a href="#techs-section" aria-label="Link sobre as tecnologias da plataforma">Tecnologias</a></li>
+                                <li> <a href="#working-section" aria-label="As funcionalidades da plataforma">Funcionamento</a></li>
                                 <li> <a aria-label="Cadastre-se" href="#form">Cadastre-se</a></li>
                             </ul>
                         </div>

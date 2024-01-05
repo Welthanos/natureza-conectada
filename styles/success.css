@@ -63,6 +63,8 @@ main>section {
         border-left: 2px solid #eeeeee;
         background: #f9fcf9 !important;
         box-shadow: 3px 8px 10.1px 0px rgba(0, 0, 0, 0.079);
+        width: 20rem;
+        min-height: 19rem; 
 
         &:last-child {
             margin-bottom: 3rem;
@@ -90,6 +92,56 @@ main>section {
     }
 }
 
+.cards-benefits{
+    position: relative;
+}
+
+
+.air-quality::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    left: 1.5rem;
+  background: url('../assets/Cloud.svg');
+}
+
+.biodiversity::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    left: 1.5rem;
+  background: url('../assets/biodiversidade.svg');
+}
+.climatic-changes::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    left: 1.5rem;
+  background: url('../assets/climatica.svg');
+}
+.awareness::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    left: 1.5rem;
+  background: url('../assets/recycle.svg');
+}
+.comunity::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    left: 1.5rem;
+  background: url('../assets/comunidade.svg');
+}
+.button-ask:disabled{
+opacity: .8;
+cursor: not-allowed;
+}
 footer {
     .links {
         visibility: hidden;
