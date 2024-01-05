@@ -1,34 +1,40 @@
-footer{
-  background-color: var(--text-color);
-}
-footer > div{
-  padding: 1rem 0;
+footer {
+    background-color: var(--text-color);
+
+    &>div {
+        padding: 1rem 0;
+    }
+
+    h2 {
+        color: var(--primary-color);
+    }
+
+    h4,
+    p,
+    li,
+    ul {
+        color: var(--bg-color);
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--bg-color);
+        transition: color .3s;
+
+        &:hover {
+            color: var(--primary-color);
+        }
+    }
 }
 
-footer h2{
-  color: var(--primary-color);
-}
-footer h4, li, ul{
-  color: var(--bg-color);
-}
-footer p{
-  color: var(--bg-color);
-}
-footer a {
-  text-decoration: none;
-  color: var(--bg-color);
-  transition: color .3s;
-}
+@media (max-width: 575px) {
+    footer {
+        .container {
+            padding-left: 2rem;
+        }
 
-footer a:hover {
-  color: var(--primary-color);
-}
-
-@media (max-width: 575px){
-  footer .container{
-padding-left: 2rem;
-  }
-  footer .row{
-    gap: 4rem;
-  }
+        .row {
+            gap: 4rem;
+        }
+    }
 }
