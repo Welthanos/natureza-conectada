@@ -1,6 +1,6 @@
 main.hero-section {
     min-height: 100vh;
-    background-image: url("../assets/bg-hero-section.webp");
+    background-image: url("../../assets/bg-hero-section.webp");
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +31,7 @@ main.hero-section {
     .hero-section-button {
         font-weight: 600;
         font-size: 1.1rem;
+        text-decoration: none;
     }
 }
 
